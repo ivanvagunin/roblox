@@ -3,7 +3,8 @@ local player = game.Players.LocalPlayer
 
 -- Create ScreenGui
 local screenGui = Instance.new("ScreenGui")
-screenGui.Parent = player.PlayerGui
+-- screenGui.Parent = player.PlayerGui
+screenGui.Parent = game.CoreGui
 
 local dragging
 local dragInput

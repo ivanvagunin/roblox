@@ -1,6 +1,3 @@
-loadstring(game:HttpGet("https://yourserver.com/script.lua"))()
-
-
 -- Script Hub (Bottom-Right Menu) for JJSploit
 -- Options: Infinite Jump, Speed Hack, Noclip
 

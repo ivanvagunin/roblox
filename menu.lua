@@ -2,7 +2,7 @@ local UserInputService = game:GetService("UserInputService")
 local localPlayer = game.Players.LocalPlayer
 
 local screenGui = Instance.new("ScreenGui")
---screenGui.Parent = player.PlayerGui
+-- screenGui.Parent = player.PlayerGui
 screenGui.Parent = game.CoreGui
 
 local dragging
@@ -318,10 +318,10 @@ local function createMainGui(scripts)
 end
 
 
-local noClip = loadstring(game:HttpGet("https://raw.githubusercontent.com/ivanvagunin/roblox/refs/heads/main/NoClipScript.lua", true))()
-local speedHack = loadstring(game:HttpGet("https://raw.githubusercontent.com/ivanvagunin/roblox/refs/heads/main/SpeedHackScript.lua", true))()
-local infiniteJump = loadstring(game:HttpGet("https://raw.githubusercontent.com/ivanvagunin/roblox/refs/heads/main/InfiniteJumpScript.lua", true))()
-local esp = loadstring(game:HttpGet("https://raw.githubusercontent.com/ivanvagunin/roblox/refs/heads/main/EspScript.lua", true))()
+local noClip = require(game.StarterPlayer.StarterPlayerScripts.NoClipScript)
+local speedHack = require(game.StarterPlayer.StarterPlayerScripts.SpeedHackScript)
+local infiniteJump = require(game.StarterPlayer.StarterPlayerScripts.InfiniteJumpScript)
+local esp = require(game.StarterPlayer.StarterPlayerScripts.EspScript)
 
 local scripts = {
   noClip,
